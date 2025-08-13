@@ -98,31 +98,26 @@
       }
       @media (max-width: 600px) {
         .card-container {
-          flex-direction: column-reverse;
+          flex-direction: column;
         }
-        .body {
+       @media (max-width:600px){body {
           width: 100%;
-        }
-        .header {
-          background-color: #559cc2;
-          background-size: cover;
-          text-align: center;
-          font-size: xx-large;
-          font-style: inherit;
+        }}
+        @media(max-width:600px){header {
+          
 
           width: 100%;
         }
         .header img {
-          height: 300px;
-          width: 300px;
-          border-radius: 50%;
-        }
-        .nav {
+          max-width: 100%;
+          height: auto;
+        }}
+        @media (min-width:551px;){.nav {
           font-style: normal;
-          font-size: larger;
-        }
+          font-size: 24px;
+        }}
 
-        ul {
+       @media(max-width=600px){ ul {
           list-style-type: none;
           margin: 0;
           padding: 0;
@@ -151,30 +146,30 @@
         }
 
         .aside {
-          height: 700px;
+          height:500px;
           width: 40%;
           float: left;
         }
 
         .section {
-          height: 700px;
+          height:500px;
           width: 60%;
           float: left;
           line-height: double;
           background-color: rgb(147, 225, 216);
           font-style: oblique;
           padding: 10px;
-        }
+        }}
 
-        .div {
+        @media(max-width:600px){.div {
           background-color: #b5d7f5;
           float: left;
           overflow: hidden;
           font-size: small;
           float: right;
-        }
+        }}
 
-        footer {
+        @media(max-width: 600px){footer {
           background-color: rgb(166, 212, 241);
         }
       }
